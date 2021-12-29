@@ -1,1 +1,1 @@
-# Customer-Segmentation-using-Clustering
+# Customer-Segmentation-using-Clustering-Algorithms
