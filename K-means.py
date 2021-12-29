@@ -3,7 +3,7 @@ import csv
 import os
 import pandas as pd
 
-path = 'C:/Users/Lakshana/project/parameters.txt'
+path = ''
 extension='.csv'
 file = open(path,'r') 
 username=file.readline()
@@ -42,7 +42,7 @@ lines=[]
 next(reader)
 for line in reader:
     lines.append(line)
-con = cx_Oracle.connect('system/Anishapeksha01@127.0.0.1/XE')
+con = cx_Oracle.connect('system/01@127.0.0.1/XE')
 ver=con.version.split(".")
 cur=con.cursor()
 cur.executemany("insert into label_clustering values (:1,:2,:3,:4,:5,:6)", lines)
