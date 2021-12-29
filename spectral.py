@@ -8,7 +8,7 @@ start_time = time.time()
 query = 'select * from clustering'
 
 ## connect to the DW and query the data
-con = cx_Oracle.connect('system/Anishapeksha01@127.0.0.1/XE')
+con = cx_Oracle.connect('system/01@127.0.0.1/XE')
 curs = con.cursor()
 curs.execute(query)
 
