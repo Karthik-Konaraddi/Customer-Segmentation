@@ -11,7 +11,7 @@
 ## 1. Execution time for different number of records with clusters K=5
 ![image](https://user-images.githubusercontent.com/15854238/147630518-b339a2ce-ed17-497e-aebc-bcc2667b6653.png)
 
-From the above graph, The time taken by K-means algorithm is very less when compared to spectral and hierarchical algorithm. The time taken by hierarchical for the same number of records is double the time taken by K-means. Hence K-means is the most efficient algorithm for clustering the data is K-means. 
+From the above graph, The time taken by K-means algorithm is very less when compared to spectral and hierarchical algorithm. The time taken by hierarchical for the same number of records is double the time taken by K-means. Hence K-means is the most efficient algorithm for clustering the data. 
 
 ## 2. Execution time for different number of clusters
 ![image](https://user-images.githubusercontent.com/15854238/147630595-10dad709-a66d-4392-a870-fcb481968679.png)
