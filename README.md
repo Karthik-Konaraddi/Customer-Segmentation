@@ -23,5 +23,8 @@ From the above graph we can derive the information that K-means takes the least 
 ## 4. Optimal K value using Elbow method
 ![image](https://user-images.githubusercontent.com/15854238/147630650-539338da-9311-4a17-91c8-1f3ed76d3af1.png)
 
+The value K=4 and K=5 are equally good values for K. But K=5 has a lower ratio of withiness to betweeness than the ratio for K=4( refer figure 7.2), hence K=5 is the most optimal value for the given data.
+
+
 
 
